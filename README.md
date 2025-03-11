@@ -1,4 +1,3 @@
-
 # 🚀 Pascal Projects Repository
 
 Welcome to my **Pascal programming repository**! This repo contains Pascal programs, starting with the classic **Hello World**.
