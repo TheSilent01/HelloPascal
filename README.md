@@ -79,10 +79,10 @@ Hello, World!
 
 ## Repository Structure
 ```
-/pascal-projects
+/HelloPascal
 │── HelloWorld.pas   # First Pascal program
 │── README.md        # Repository documentation
-│── LICENSE          # (Optional) License file
+
 ```
 
 ---
