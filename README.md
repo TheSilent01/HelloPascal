@@ -1,6 +1,9 @@
+```md
 # Pascal Projects Repository
 
 Welcome to my **Pascal programming repository**! This repo contains Pascal programs, starting with the classic **Hello World**.
+
+---
 
 ## Hello World Program
 
@@ -11,3 +14,100 @@ program HelloWorld;
 begin
   writeln('Hello, World!');
 end.
+```
+
+---
+
+## Compilation & Execution
+
+### 1. Download the Code
+To get this repository on your local machine, run:
+```bash
+git clone https://github.com/your-username/pascal-projects.git
+cd pascal-projects
+```
+Replace `your-username` with your actual **GitHub username**.
+
+Alternatively, you can **download the ZIP** from GitHub and extract it.
+
+---
+
+### 2. Install Free Pascal Compiler (FPC)
+You need **FPC (Free Pascal Compiler)** to compile and run the code.
+
+- Windows: Download from [Free Pascal Official Site](https://www.freepascal.org/download.var).
+- Linux (Debian/Ubuntu):
+  ```bash
+  sudo apt install fp-compiler
+  ```
+- Linux (Arch-based):
+  ```bash
+  sudo pacman -S fpc
+  ```
+- MacOS (Homebrew):
+  ```bash
+  brew install fpc
+  ```
+
+---
+
+### 3. Compile the Program
+Navigate to the project folder and compile the Pascal file:
+```bash
+fpc HelloWorld.pas
+```
+If successful, this generates an **executable file**.
+
+---
+
+### 4. Run the Program
+#### On **Windows**:
+```cmd
+HelloWorld.exe
+```
+#### On **Linux/macOS**:
+```bash
+./HelloWorld
+```
+
+---
+
+## Expected Output:
+```
+Hello, World!
+```
+
+---
+
+## Repository Structure
+```
+/pascal-projects
+│── HelloWorld.pas   # First Pascal program
+│── README.md        # Repository documentation
+│── LICENSE          # (Optional) License file
+```
+
+---
+
+## Contributions
+Feel free to **fork**, modify, and contribute! If you find an issue, open an **issue** or a **pull request**.
+
+---
+
+## License
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+**Happy Coding! **
+```
+
+---
+
+### How to Use It in Your GitHub Repository
+1. **Save this as `README.md`** in your repository.
+2. Commit and push it to GitHub:
+   ```bash
+   git add README.md
+   git commit -m "Added README with installation and execution steps"
+   git push origin main
+   ```
