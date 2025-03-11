@@ -90,16 +90,6 @@ Hello, World!
 ## 🚀 Contributions
 Feel free to **fork**, modify, and contribute! If you find an issue, open an **issue** or a **pull request**.
 
----
-**💡 Happy Coding! 🚀**
-```
-
----
-
-### **How to Use It in Your GitHub Repository**
-1. **Save this as `README.md`** in your repository.  
-2. **Commit and push it to GitHub**:
-   ```bash
    git add README.md
    git commit -m "Added README with installation and execution steps"
    git push origin main
