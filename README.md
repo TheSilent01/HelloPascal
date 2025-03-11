@@ -22,10 +22,9 @@ end.
 ### 🔹 **1. Download the Code**
 To get this repository on your local machine, run:
 ```bash
-git clone https://github.com/your-username/pascal-projects.git
-cd pascal-projects
+git clone https://github.com/TheSilent01/HelloPascal.git
+cd HelloPascal
 ```
-Replace `your-username` with your actual **GitHub username**.
 
 Alternatively, you can **download the ZIP** from GitHub and extract it.
 
