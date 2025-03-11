@@ -92,11 +92,6 @@ Hello, World!
 Feel free to **fork**, modify, and contribute! If you find an issue, open an **issue** or a **pull request**.
 
 ---
-
-## License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
 **Happy Coding! **
 ```
 
