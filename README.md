@@ -1,12 +1,8 @@
-# Pascal Projects Repository
+# HelloPascal
 
-Welcome to my **Pascal programming repository**! This repo contains Pascal programs, starting with the classic **Hello World**.
+First Pascal program, kept here so I have somewhere to put the rest of the
+Pascal exercises later.
 
----
-
-## Hello World Program
-
-### Code:
 ```pascal
 program HelloWorld;
 
@@ -15,92 +11,18 @@ begin
 end.
 ```
 
----
+## Compile and run
 
-## Compilation & Execution
+You need Free Pascal:
 
-### 1. Download the Code
-To get this repository on your local machine, run:
-```bash
-git clone https://github.com/TheSilent01/HelloPascal.git
-cd HelloPascal
-```
+- Debian/Ubuntu: `sudo apt install fp-compiler`
+- Arch: `sudo pacman -S fpc`
+- macOS: `brew install fpc`
+- Windows: https://www.freepascal.org/download.var
 
-Alternatively, you can **download the ZIP** from GitHub and extract it.
+Then:
 
----
+    fpc HelloWorld.pas
+    ./HelloWorld
 
-### 2. Install Free Pascal Compiler (FPC)
-You need **FPC (Free Pascal Compiler)** to compile and run the code.
-
-- Windows: Download from [Free Pascal Official Site](https://www.freepascal.org/download.var).
-- Linux (Debian/Ubuntu):
-  ```bash
-  sudo apt install fp-compiler
-  ```
-- Linux (Arch-based):
-  ```bash
-  sudo pacman -S fpc
-  ```
-- MacOS (Homebrew):
-  ```bash
-  brew install fpc
-  ```
-
----
-
-### 3. Compile the Program
-Navigate to the project folder and compile the Pascal file:
-```bash
-fpc HelloWorld.pas
-```
-If successful, this generates an **executable file**.
-
----
-
-### 4. Run the Program
-#### On **Windows**:
-```cmd
-HelloWorld.exe
-```
-#### On **Linux/macOS**:
-```bash
-./HelloWorld
-```
-
----
-
-## Expected Output:
-```
-Hello, World!
-```
-
----
-
-## Repository Structure
-```
-/HelloPascal
-│── HelloWorld.pas   # First Pascal program
-│── README.md        # Repository documentation
-
-```
-
----
-
-## Contributions
-Feel free to **fork**, modify, and contribute! If you find an issue, open an **issue** or a **pull request**.
-
----
-**Happy Coding! **
-```
-
----
-
-### How to Use It in Your GitHub Repository
-1. **Save this as `README.md`** in your repository.
-2. Commit and push it to GitHub:
-   ```bash
-   git add README.md
-   git commit -m "Added README with installation and execution steps"
-   git push origin main
-   ```
+On Windows it is `HelloWorld.exe`.
